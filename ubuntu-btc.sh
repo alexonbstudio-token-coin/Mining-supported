@@ -1,7 +1,10 @@
-/bin/sh
+#!/bin/sh
+
+
+
 ###################
 ## SH create by Alexonb.Studio
-## Mining Works and testing Bitcoin
+## Mining Works and testing Bitcoin on Ubuntu 20.04 TLS
 ## Approuvate 28/08/2021 to 3h21 PM (GMT+002 Paris)
 ###################
 
