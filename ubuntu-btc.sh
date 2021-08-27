@@ -13,8 +13,11 @@ sudo -i
 
 apt update && apt upgrade -y
 
+# intermux install ubuntu with one by one pakage sources
+apt install -y libcurl4-openssl-dev && apt install -y libncurses5-dev && apt install -y pkg-config && apt install -y automake && apt install -y yasm 
+apt install -y autoconf && apt install -y gcc && apt install -y git && apt install -y libtool && apt install -y libjansson-dev 
+apt install -y libusb-1.0-0-dev && apt install -y apt-file && apt install -y make
 
-apt install -y libcurl4-openssl-dev && apt install -y libncurses5-dev && apt install -y pkg-config && apt install -y automake && apt install -y yasm && apt install -y autoconf && apt install -y gcc && apt install -y make && apt install -y git && apt install -y libtool && apt install -y libjansson-dev && apt install -y libudev && apt install -y libusb-1.0-0-dev && apt install -y apt-file && apt install -y make
 
 git clone https://github.com/pooler/cpuminer.git
 cd cpuminer
