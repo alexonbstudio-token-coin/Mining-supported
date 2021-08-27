@@ -14,7 +14,7 @@ sudo -i
 apt update && apt upgrade -y
 
 
-apt install -y libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm autoconf gcc make git libtool libjansson-dev libudev libusb-1.0-0-dev apt-file make
+apt install -y libcurl4-openssl-dev && apt install -y libncurses5-dev && apt install -y pkg-config && apt install -y automake && apt install -y yasm && apt install -y autoconf && apt install -y gcc && apt install -y make && apt install -y git && apt install -y libtool && apt install -y libjansson-dev && apt install -y libudev && apt install -y libusb-1.0-0-dev && apt install -y apt-file && apt install -y make
 
 git clone https://github.com/pooler/cpuminer.git
 cd cpuminer
